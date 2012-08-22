@@ -1,0 +1,9 @@
+command! W call HotDeploy()
+
+" js hot-deploy function
+function! HotDeploy()
+    :w
+    let pomxml = fnamemodify(findfile('pom.xml', ';'), ':p:h')
+    cd shellescape(pomxml)
+    !mvn process-sources
+endfunction
