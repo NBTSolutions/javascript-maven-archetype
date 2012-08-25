@@ -4,6 +4,7 @@ command! W call HotDeploy()
 function! HotDeploy()
     :w
     let pomxml = fnamemodify(findfile('pom.xml', ';'), ':p:h')
-    cd shellescape(pomxml)
+    exec 'cd ' . pomxml
     !mvn process-sources process-resources
+    :silent cd -
 endfunction
