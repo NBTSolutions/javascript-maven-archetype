@@ -52,7 +52,7 @@
         <include>**/*.js</include>
       </includes>
     </fileSet>
-    <fileSet filtered="true" encoding="UTF-8">
+    <fileSet encoding="UTF-8">
       <directory></directory>
       <includes>
         <include>.lvimrc</include>
