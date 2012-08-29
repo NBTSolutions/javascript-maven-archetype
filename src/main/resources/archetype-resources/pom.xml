@@ -76,6 +76,20 @@
           <failOnIssues>false</failOnIssues>
         </configuration>
       </plugin>
+      
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>2.2</version>
+        <configuration>
+          <webResources>
+            <resource>
+              <!-- copy resources from this folder into the webapp before packaging -->
+              <directory>target/classes</directory>
+            </resource>
+          </webResources>
+        </configuration>
+      </plugin>
 
     </plugins>
 
