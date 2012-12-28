@@ -4,13 +4,13 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>nbt.tools</groupId>
-  <artifactId>javascript-app-archetype</artifactId>
-  <version>0.1</version>
+  <artifactId>enyo-app-archetype</artifactId>
+  <version>2.1.1</version>
 
   <packaging>maven-archetype</packaging>
 
-  <name>NBT Javascript Application Archetype</name>
-  <description>A fork of the original javascript-ria-archetype with some extra features, more liberal jslint configuration</description>
+  <name>Enyo Application Archetype</name>
+  <description>This version follows the enyo release to which it corresponds</description>
   <url>https://github.com/NBTSolutions/javascript-maven-archetype</url>
 
   <build>

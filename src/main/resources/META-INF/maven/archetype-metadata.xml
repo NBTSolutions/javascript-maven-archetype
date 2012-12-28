@@ -6,13 +6,13 @@
     <fileSet filtered="true" encoding="UTF-8">
       <directory>src/main/webapp</directory>
       <includes>
-        <include>**/*.xml</include>
+        <include>**/*</include>
       </includes>
     </fileSet>
     <fileSet filtered="true" encoding="UTF-8">
       <directory>src/main/resources</directory>
       <includes>
-        <include>**/*.html</include>
+        <include>**/*</include>
       </includes>
     </fileSet>
     <fileSet encoding="UTF-8">
@@ -22,34 +22,15 @@
       </includes>
     </fileSet>
     <fileSet encoding="UTF-8">
-      <directory>src/main/resources</directory>
-      <includes>
-        <include>**/*.png</include>
-        <include>**/*.css</include>
-      </includes>
-    </fileSet>
-    <fileSet filtered="true" encoding="UTF-8">
-      <directory>src/test/java</directory>
-      <includes>
-        <include>**/*.java</include>
-      </includes>
-    </fileSet>
-    <fileSet encoding="UTF-8">
-      <directory>src/test/resources</directory>
-      <includes>
-        <include>**/*.html</include>
-      </includes>
-    </fileSet>
-    <fileSet encoding="UTF-8">
-      <directory>src/test/resources</directory>
-      <includes>
-        <include>**/*.css</include>
-      </includes>
-    </fileSet>
-    <fileSet encoding="UTF-8">
       <directory>src/test/js</directory>
       <includes>
         <include>**/*.js</include>
+      </includes>
+    </fileSet>
+    <fileSet encoding="UTF-8">
+      <directory>scripts</directory>
+      <includes>
+        <include>**/*</include>
       </includes>
     </fileSet>
     <fileSet encoding="UTF-8">
@@ -57,6 +38,7 @@
       <includes>
         <include>.lvimrc</include>
         <include>.gitignore</include>
+        <include>init.sh</include>
       </includes>
     </fileSet>
   </fileSets>
