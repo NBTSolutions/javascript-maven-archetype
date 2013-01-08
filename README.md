@@ -1,12 +1,10 @@
-javascript-maven-archetype -- tag: enyo
+javascript-maven-archetype -- tag: enyo-2.1.1
 ==========================
 
-Maven Archetype for Enyo Applications. Requires Maven 3.0.4+
+Maven Archetype for Enyo Applications. Requires Maven 3.0.x
 
 Installation:
 
-1. mvn archetype:generate -DarchetypeGroupId=nbt.tools -DarchetypeArtifactId=enyo-app-archetype -DarchetypeVersion=0.1 -DgroupId=nbt.app -Dversion=0.1
-2. sh init.sh
+See: http://www.nbtsolutions.com/the-enyo-maven-archetype/
 
-Invoke `mvn clean test` to confirm that installation was successful. Then invoke `mvn clean` before beginning development. Default "Hello World" app can be viewed at src/main/webapp/
-
+Invoke `mvn clean test` to confirm that installation was successful. Then invoke `mvn clean` before beginning development. Default "Hello World" app can be viewed at src/main/webapp/debug.html.
