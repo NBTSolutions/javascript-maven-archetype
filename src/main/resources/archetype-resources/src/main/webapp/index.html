@@ -17,14 +17,8 @@
 		<!-- this div is a crazy hack in order to support IE8 -->
 		<div id="container" style="width: 100%; height: 100%;"></div>
 		<script>
-		if (!window.nbt) {
-			var frame = top.document.getElementById("mainFrame");
-			if (frame === null) {
-				location = 'frame.html';
-			}
-			else {
-				frame.src = 'debug.html';
-			}
+		if (!window.App) {
+            location = 'debug.html';
 		}
         else {
 			new App().renderInto(document.getElementById("container"));

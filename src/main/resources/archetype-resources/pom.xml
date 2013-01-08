@@ -75,7 +75,23 @@
              <id>minify-all</id>
              <phase>compile</phase>
              <configuration>
-               <executable>scripts/build.sh</executable>
+               <executable>bash</executable>
+               <arguments>
+                 <argument>scripts/build.sh</argument>
+               </arguments>
+             </configuration>
+             <goals>
+               <goal>exec</goal>
+             </goals>
+           </execution>
+           <execution>
+             <id>init</id>
+             <phase>initialize</phase>
+             <configuration>
+               <executable>bash</executable>
+               <arguments>
+                 <argument>scripts/init.sh</argument>
+               </arguments>
              </configuration>
              <goals>
                <goal>exec</goal>
