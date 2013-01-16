@@ -11,8 +11,6 @@ else
     UNDERSCOREVERSION='1.4.3'
     LESSVERSION='1.3.3'
 
-    mkdir -p src/main/webapp/lib
-
     git init
 
     echo ">> Adding submodule enyo $ENYOVERSION..."

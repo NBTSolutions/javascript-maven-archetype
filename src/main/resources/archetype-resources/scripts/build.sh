@@ -28,8 +28,3 @@ fi
 cd src/main/webapp
 enyo/minify/minify.sh
 enyo/tools/minify.sh -output build/app package.js
-
-# compile less
-
-cd css/
-#bash ../enyo/tools/lessc.sh package.js
